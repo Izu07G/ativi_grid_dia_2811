@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.principal{
+    display: grid;
+    width: 55vw;
+    height: 575px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    transform: translate(30%, 10%);
+    background-color: black;
+}
+
+.um{
+    width: 285px;
+    height: 285px;
+    background-color: rgba(128, 255, 0, 0.767);
+}
+
+.img1{
+    width: 90%;
+    height: 90%;
+    background-image: url("fotos/brian.jpg");
+    background-size: cover;
+    background-position: center;
+    transform: translate(5%, 5%);
+}
+
+.dois{
+    width: 285px;
+    height: 285px;
+    background-color: darkblue;
+    transform: translate(3.3%);
+}
+
+.img2{
+    width: 90%;
+    height: 90%;
+    background-image: url("fotos/subaro.jpg");
+    background-size: cover;
+    background-position: center;
+    transform: translate(5%, 5%);
+}
+
+.tres{
+    width: 285px;
+    height: 285px;
+    background-color: darkblue;
+}
+
+.img3{
+    width: 90%;
+    height: 90%;
+    background-image: url("fotos/mustang.jpg");
+    background-size: cover;
+    background-position: center;
+    transform: translate(5%, 5%);
+}
+
+.quatro{
+    width: 285px;
+    height: 285px;
+    background-color: rgba(128, 255, 0, 0.856);
+    transform: translate(3.3%);
+}
+
+.img4{
+    width: 90%;
+    height: 90%;
+    background-image: url("fotos/mercedes.jpg");
+    background-size: cover;
+    background-position: center;
+    transform: translate(5%, 5%);
+}
